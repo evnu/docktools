@@ -1,4 +1,9 @@
 #!/bin/bash
+# 
+# Change blanks to _ recursively
+#
+# Requirements:
+# * larry walls rename perl script (which should be named rename.pl)
 
 find . -type d | tac | while read line
 do
